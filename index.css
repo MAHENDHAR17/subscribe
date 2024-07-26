@@ -1,0 +1,16 @@
+
+.hello{
+  height: 90vh;
+  width: 90vw;
+  margin: auto;
+  background-image: url(https://th.bing.com/th/id/R.fa83b43e230511f0c5ed694f6ff52e3c?rik=QyCGnikAfWFx6A&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fPhoto-sky-wallpapers-desktop-desgins.jpg&ehk=muUqLVJS1CYeg0WwHi2FJ0UWVQzt76kjoP2TccDyEg4%3d&risl=&pid=ImgRaw&r=0);
+  text-align: center;
+}
+.sub{
+  background-color: aquamarine;
+  cursor: pointer;
+position: relative;
+top: 50%;
+}
+.hellocss{
+background-image: url(https://wallpaperaccess.com/full/427984.jpg);}

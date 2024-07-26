@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="hello">
+   <button class="sub" onclick="onoff()"> subscribe</button> 
+</div>
+<script>
+function onoff(){
+    if(document.querySelector('.sub').innerText == 'subscribe'){
+      document.querySelector('.sub').innerText = 'subscribed';
+      document.querySelector('.hello').classList.add('hellocss')
+    }else{document.querySelector('.sub').innerText = 'subscribe';
+        document.querySelector('.hello').classList.remove('hellocss')
+    }
+}
+</script>
+</body>
+</html>
